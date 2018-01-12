@@ -1,0 +1,160 @@
+style "theme-panel" {
+
+  xthickness = 4
+  ythickness = 2
+
+  bg[NORMAL] = "#ffffff"
+  bg[ACTIVE] = "#ffdedf"
+  bg[PRELIGHT] = "#ffeeee"
+  bg[SELECTED] = "#ffdedf"
+
+  fg[NORMAL] = "#999fae"
+  fg[PRELIGHT] = "#999fae"
+  fg[ACTIVE] = "#999fae"
+  fg[SELECTED] = "#999fae"
+
+  text[NORMAL] = "#999fae"
+  text[PRELIGHT] = "#999fae"
+  text[ACTIVE] = "#999fae"
+  text[SELECTED] = "#999fae"
+
+  engine "murrine" {
+    reliefstyle = 0
+    glazestyle = 0
+    glow_shade = 1.0
+    highlight_shade = 1.0
+    roundness = 0
+    gradient_shades = {1.0,1.0,1.0,1.0}
+    textstyle = 0
+    contrast = 0.0
+  }
+}
+
+style "theme-panel-progressbar" {
+  bg[ACTIVE] = "#ffdedf"
+}
+
+style "panelbar" {
+
+  fg[NORMAL] = "#edf5fb"
+  fg[ACTIVE] = "#edf5fb"
+  fg[PRELIGHT] = "#edf5fb"
+  fg[SELECTED] = "#999fae"
+
+  bg[SELECTED] = "#ffdedf"
+
+  engine "murrine" {}
+}
+
+style "panelbuttons" {
+
+  xthickness = 4
+  xthickness = 2
+
+  engine "murrine" {
+    textstyle = 0
+  }
+}
+
+style "theme-panel-text" {
+
+  fg[NORMAL] = "#edf5fb"
+  fg[PRELIGHT] = "#999fae"
+  fg[ACTIVE] = "#edf5fb"
+
+  text[NORMAL] = "#edf5fb"
+  text[PRELIGHT] = "#999fae"
+  text[ACTIVE] = "#edf5fb"
+
+  engine "murrine" {
+    textstyle = 0
+    text_shade = 0.2
+  }
+}
+
+style "panel-entry" {
+
+  fg[NORMAL] = "#999fae"
+  fg[PRELIGHT] = "#999fae"
+  fg[ACTIVE] = "#999fae"
+  fg[SELECTED] = "#999fae"
+  fg[INSENSITIVE] = "#999fae"
+
+  text[NORMAL] = "#999fae"
+  text[PRELIGHT] = "#999fae"
+  text[ACTIVE] = "#999fae"
+  text[SELECTED] = "#999fae"
+  text[INSENSITIVE] = "#999fae"
+
+}
+
+style "theme-main-menu-text" = "theme-panel-text" {
+  fg[PRELIGHT] = "#999fae"
+  text[PRELIGHT] = "#999fae"
+}
+
+style "workspace-switcher" = "theme-panel" {
+  bg[SELECTED] = "#ffdedf"
+}
+
+style "indicator" = "theme-panel" {
+  xthickness = 4
+  xthickness = 2
+}
+
+widget "*tasklist*"                                   style "panelbuttons"
+widget_class "*Xfce*Panel*.GtkToggleButton"           style "panelbuttons"
+widget_class "*Xfce*NetkTasklist*GtkToggleButton"     style "panelbuttons"
+widget_class "*PanelToplevel*Button"                  style "panelbuttons"
+widget_class "*Panel*GtkToggleButton"                 style "panelbuttons"
+widget_class "*Xfce*Panel*Button*"                    style "panelbuttons"
+widget_class "*<XfceArrowButton>"                     style "panelbuttons"
+widget_class "*<XfceActionsPlugin>*"                  style "panelbuttons"
+widget_class "*XfcePanelPlugin.GtkButton"             style "panelbuttons"
+widget "*dict*Applet*"                                style "panelbuttons"
+widget_class "*Xfce*NetkTasklist*GtkToggleButton"     style "panelbuttons"
+widget_class "*Tasklist*"                             style:highest "panelbuttons"
+
+class "*Panel*MenuBar*"                               style "panelbar"
+widget_class "*Panel*MenuBar*"                        style "panelbar"
+widget_class "*Panel*MenuBar*Item*"                   style:highest "panelbar"
+
+widget "*PanelWidget*"                                style "theme-panel"
+widget "*PanelApplet*"                                style "theme-panel"
+widget "*fast-user-switch*"                           style "theme-panel"
+widget "*CPUFreq*Applet*"                             style "theme-panel"
+class "PanelApp*"                                     style "theme-panel"
+class "PanelToplevel*"                                style "theme-panel"
+widget_class "*PanelToplevel*"                        style "theme-panel"
+widget_class "*notif*"                                style "theme-panel"
+widget_class "*Notif*"                                style "theme-panel"
+widget_class "*Tray*"                                 style "theme-panel" 
+widget_class "*tray*"                                 style "theme-panel"
+widget_class "*computertemp*"                         style "theme-panel"
+widget_class "*Applet*Tomboy*"                        style "theme-panel"
+widget_class "*Applet*Netstatus*"                     style "theme-panel"
+
+# Fixes for tooltip text in some apps.
+widget_class "*Notif*Beagle*"                         style "theme-panel"
+widget_class "*Notif*Brasero*"                        style "theme-panel"
+
+# XFCE panel theming.
+widget "*Xfce*Panel*"                                 style "theme-panel"
+class "*Xfce*Panel*"                                  style "theme-panel"
+widget "*Xfce*Panel*GtkProgressBar"                   style "theme-panel-progressbar"
+widget "*WnckPager*"                                  style "workspace-switcher"
+widget "*TopMenu*"                                    style "theme-panel"
+widget "*XfceTasklist*"                               style "panelbuttons"
+
+# Fix gtk-entries in the panel
+widget "*bookmark*GtkEntry"                           style "panel-entry" # fixes smartbookmark-plugin
+
+# Make sure panel text color doesn't change
+widget_class "*Panel*MenuBar*"                        style "theme-main-menu-text"
+widget_class "*Panel*<GtkMenuBar>*"                   style "theme-main-menu-text"
+widget "*.clock-applet-button.*"                      style "theme-panel-text"
+widget "*PanelApplet*"                                style "theme-panel-text"
+
+# Override general panel-style with specific plugin-styles
+widget "*indicator-applet*"                           style "indicator"
+widget "*indicator-button*"                           style "indicator"

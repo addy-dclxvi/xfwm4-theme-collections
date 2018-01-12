@@ -1,0 +1,32 @@
+button_offset=0
+button_spacing=0
+
+full_width_title=true
+title_shadow_active=false
+title_shadow_inactive=false
+title_horizontal_offset=0
+
+# a dirty trick to hide title text ;)
+active_text_color=#ffffff
+active_text_shadow_color=#ffffff
+inactive_text_color=#ffffff
+inactive_text_shadow_color=#ffffff
+
+shadow_delta_height=2
+shadow_delta_width=0
+shadow_delta_x=0
+shadow_delta_y=-2
+shadow_opacity=80
+
+# hide the app icon for concistency
+show_app_icon=false
+
+# button_layout
+# O = Option menu
+# T = Stick
+# H = hide
+# S = shade
+# M = maximize
+# C = close
+# | = title
+button_layout=|HMC
