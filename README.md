@@ -1,5 +1,5 @@
 ## Xfwm Theme
-These are only Window Border. The best GTK companion for these themes is [Lumiere](https://github.com/addy-dclxvi/gtk-theme-collections). I will create more theme later.
+These are only Window Border. The best GTK companion for these themes is [Lumiere & Fantome](https://github.com/addy-dclxvi/gtk-theme-collections). I will create more theme later.
 
 ## Preview
 
