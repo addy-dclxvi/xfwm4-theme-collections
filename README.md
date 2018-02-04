@@ -3,6 +3,10 @@ These are only Window Border. The best GTK companion for these themes is [Lumier
 
 ## Preview
 
+## 2bxfwm
+![alt text](https://raw.githubusercontent.com/addy-dclxvi/Xfwm4-Theme-Collections/master/preview-2bxfwm.jpg) <br />
+Disable the window title. The trick is, change the font size of title bar to zero using Xfconf.
+
 ## Chandelier
 ![alt text](https://raw.githubusercontent.com/addy-dclxvi/Xfwm4-Theme-Collections/master/preview-chandelier.jpg) <br />
 
