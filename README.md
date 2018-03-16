@@ -16,12 +16,15 @@ Disable the window title. The trick is, change the font size of title bar to zer
 ## Pita
 ![alt text](https://raw.githubusercontent.com/addy-dclxvi/Xfwm4-Theme-Collections/master/preview-pita.jpg) <br />
 
+## Circela
+![alt text](https://raw.githubusercontent.com/addy-dclxvi/Xfwm4-Theme-Collections/master/preview-circela.jpg) <br />
+
 ## Installation
 Just clone this to your themes folder (but first make sure there is no *.git* folder inside your *~/.themes* folder, if You find it just delete)
 ```
 git clone https://github.com/addy-dclxvi/Xfwm4-Theme-Collections ~/.themes
 ```
-Then apply a theme You desire using Window Decorations in Your Xfce Settings Manager, and apply GTK theme using Appearance Settings
+Then apply a theme You desire using Window Manager settings.
 
 ## Credits
 These themes are inspired by [Faat Fuut](https://www.facebook.com/faat.fuut).
