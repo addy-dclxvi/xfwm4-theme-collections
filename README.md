@@ -26,11 +26,11 @@ This theme is only handle the inner gaps. Use Settings > Workspaces > Margins, t
 Then You will get the gaps when You do Window Snapping
 
 ## C#m7b5 (I run out of idea how to name my theme)
-![c#m7b5](https://raw.githubusercontent.com/addy-dclxvi/Xfwm4-Theme-Collections/master/preview-c#m7b5.jpg) <br />
+![c#m7b5](https://raw.githubusercontent.com/addy-dclxvi/Xfwm4-Theme-Collections/master/preview-csharpm7b5.jpg) <br />
 The Stick, Shade, Minimize, and Maximize buttons will be visible on hover. This theme also has gaps.
 
 ## C#m7
-![c#m7](https://raw.githubusercontent.com/addy-dclxvi/Xfwm4-Theme-Collections/master/preview-c#m7.jpg) <br />
+![c#m7](https://raw.githubusercontent.com/addy-dclxvi/Xfwm4-Theme-Collections/master/preview-csharpm7.jpg) <br />
 Identic with theme above. But The Stick, Shade, Minimize, and Maximize buttons are always visible.
 
 ## Installation
