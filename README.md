@@ -25,6 +25,14 @@ Disable the window title. The trick is, change the font size of title bar to zer
 This theme is only handle the inner gaps. Use Settings > Workspaces > Margins, to set the outer gaps. 
 Then You will get the gaps when You do Window Snapping
 
+## C#m7b5 (I run out of idea how to name my theme)
+![c#m7b5](https://raw.githubusercontent.com/addy-dclxvi/Xfwm4-Theme-Collections/master/preview-c#m7b5.jpg) <br />
+The Stick, Shade, Minimize, and Maximize buttons will be visible on hover. This theme also has gaps.
+
+## C#m7
+![c#m7](https://raw.githubusercontent.com/addy-dclxvi/Xfwm4-Theme-Collections/master/preview-c#m7.jpg) <br />
+Identic with theme above. But The Stick, Shade, Minimize, and Maximize buttons are always visible.
+
 ## Installation
 Just clone this to your themes folder (but first make sure there is no *.git* folder inside your *~/.themes* folder, if You find it just delete)
 ```
@@ -37,6 +45,8 @@ These themes are inspired by [Faat Fuut](https://www.facebook.com/faat.fuut).
 
 ## Note
 Some of these themes **have no resize handle**, for aesthetic reason. Use *Alt + Right Click* to resize.
+And if You want the titlebar text back, edit the the *themerc* inside particular folder.
+Then change *active_text_color* colour variable to any colour You like.
 
 ## License
 Of course, GPL. Feel free to modify and share these themes.
