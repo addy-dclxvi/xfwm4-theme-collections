@@ -29,9 +29,8 @@ Then You will get the gaps when You do Window Snapping
 ![c#m7b5](https://raw.githubusercontent.com/addy-dclxvi/Xfwm4-Theme-Collections/master/preview-csharpm7b5.jpg) <br />
 The Stick, Shade, Minimize, and Maximize buttons will be visible on hover. This theme also has gaps.
 
-## C#m7
-![c#m7](https://raw.githubusercontent.com/addy-dclxvi/Xfwm4-Theme-Collections/master/preview-csharpm7.jpg) <br />
-Identic with theme above. But The Stick, Shade, Minimize, and Maximize buttons are always visible.
+## A#m7
+![a#m7](https://raw.githubusercontent.com/addy-dclxvi/Xfwm4-Theme-Collections/master/preview-asharpm7.jpg) <br />
 
 ## Installation
 Just clone this to your themes folder (but first make sure there is no *.git* folder inside your *~/.themes* folder, if You find it just delete)
