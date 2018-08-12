@@ -32,6 +32,9 @@ The Stick, Shade, Minimize, and Maximize buttons will be visible on hover. This 
 ## A#m7
 ![a#m7](https://raw.githubusercontent.com/addy-dclxvi/Xfwm4-Theme-Collections/master/preview-asharpm7.jpg) <br />
 
+## Rin
+![rin](https://raw.githubusercontent.com/addy-dclxvi/Xfwm4-Theme-Collections/master/preview-rin.jpg) <br />
+
 ## Installation
 Just clone this to your themes folder (but first make sure there is no *.git* folder inside your *~/.themes* folder, if You find it just delete)
 ```
