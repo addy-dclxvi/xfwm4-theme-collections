@@ -1,0 +1,31 @@
+button_offset=-24
+button_spacing=0
+
+full_width_title=true
+title_shadow_active=false
+title_shadow_inactive=false
+title_horizontal_offset=0
+
+active_text_color=#2f343f
+active_text_shadow_color=#2f343f
+inactive_text_color=#2f343f
+inactive_text_shadow_color=#2f343f
+
+shadow_delta_height=4
+shadow_delta_width=0
+shadow_delta_x=0
+shadow_delta_y=-4
+shadow_opacity=25
+
+# hide the app icon for concistency
+show_app_icon=false
+
+# button_layout
+# O = Option menu
+# T = Stick
+# H = hide
+# S = shade
+# M = maximize
+# C = close
+# | = title
+button_layout=|HMC
