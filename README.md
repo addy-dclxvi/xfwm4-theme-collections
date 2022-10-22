@@ -38,6 +38,10 @@ The Stick, Shade, Minimize, and Maximize buttons will be visible on hover. This 
 ## Nelio
 ![nelio](https://raw.githubusercontent.com/addy-dclxvi/Xfwm4-Theme-Collections/master/preview-nelio.jpg) <br />
 
+## Strawberry Float
+![strawberry-float](https://raw.githubusercontent.com/addy-dclxvi/Xfwm4-Theme-Collections/master/preview-strawberry-float.jpg) <br />
+The Stick, Shade, Minimize, and Maximize buttons will be visible on hover. This theme also has gaps. And the GTK Theme companion included in this repository.
+
 ## Installation
 Just clone this to your themes folder (but first make sure there is no *.git* folder inside your *~/.themes* folder, if You find it just delete)
 ```

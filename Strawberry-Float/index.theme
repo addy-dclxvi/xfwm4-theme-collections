@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Strawberry-Float
+Comment=A Material Design theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Strawberry-Float
+IconTheme=Adwaita
+CursorTheme=Adwaita
+CursorSize=24
